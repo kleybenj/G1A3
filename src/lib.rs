@@ -4,7 +4,5 @@ pub use lexer::C1Token;
 // mod parser;
 pub use parser::C1Parser;
 
-use crate::ParseResult;
-
 mod lexer;
 mod parser;
